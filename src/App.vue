@@ -2,16 +2,9 @@
   <div class="page-flexbox-wrapper">
     <main>
       <div class="container">
-        <div class="row valign-wrapper">
-          <div class="col s7 m6">
-            <h1 class="title left-align">
-              <router-link to="/">ASHER LIM</router-link>
-            </h1>
-          </div>
-          <div class="col s5 m6">
-            <app-nav></app-nav>
-          </div>
-        </div>
+        <br>
+        <app-nav></app-nav>
+        <br>        
         <router-view></router-view>
       </div>
     </main>
@@ -42,12 +35,8 @@ export default {
 
 main {
   background-color: #f0f0f0;
-}
-
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight:300;
-  font-size: 2.5em;
+  /*for sticky footer*/
+  flex: 1 0 auto;
 }
 
 html {
@@ -62,14 +51,5 @@ html {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
-
-main {
-  /*for sticky footer*/
-  flex: 1 0 auto;
-}
-
-a {
-  color: black;
 }
 </style>
