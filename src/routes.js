@@ -19,6 +19,5 @@ export const routes = [
 		]
 	},
 	{path: '/projects',	component: Projects},
-	{path: '/redirect-me', redirect: {name: 'home'}},
 	{path: '*', redirect: '/'}
 ];
