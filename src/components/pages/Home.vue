@@ -2,7 +2,7 @@
 	<div>
 		<div class="row">
 			<div class="col s12 m3 l3 photo-container center-align">
-				<img src="asher.jpg" alt="My photo"/>
+				<img src="@/assets/asher.jpg" alt="My photo"/>
 				<p class="center-align caption-text">
 					<b>Final year student</b>
 					<br>

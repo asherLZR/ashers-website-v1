@@ -1,7 +1,7 @@
 <template>
 	<div class="center-align">
-		<h5>blog coming soon...</h5>
-		<a href="https://icons8.com" target="_blank"><img src="blogging.png" alt="blogging" class="responsive-img"></a>
+		<h5>BLOG</h5>
+		<router-view></router-view>
 	</div>
 </template>
 

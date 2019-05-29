@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import ProjectCard from "../ProjectCard.vue"
+import ProjectCard from "./ProjectCard.vue"
 
 export default {
 	data() {
@@ -38,6 +38,10 @@ export default {
 .collection {
 	border: 0px;
 	border-radius: 0px;
+}
+
+.collection .collection-item {
+	background-color: transparent;
 }
 </style>
 

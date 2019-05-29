@@ -1,11 +1,24 @@
-import Blog from './components/pages/Blog.vue';
-import Projects from './components/pages/Projects.vue';
-import Home from './components/pages/Home.vue';
-import NotFoundComponent from './components/pages/NotFound.vue';
+import Blog from '@/components/pages/Blog.vue';
+import BlogList from './static/blogList.json';
+import BlogMain from '@/components/pages/BlogMain.vue';
+import Projects from '@/components/pages/Projects.vue';
+import Home from '@/components/pages/Home.vue';
 
 export const routes = [
-	{path: '', component: Home}, 
-	{path: '/blog',	component: Blog},
+	{path: '', component: Home, name: 'home'}, 
+	{
+		path: '/blog',	
+		component: Blog,
+		children: [
+			{path: '', component: BlogMain},
+			...BlogList.map(entry => ({
+				path: `${entry.id}`,
+				name: entry.id,
+				component: () => import(`./markdown/${entry.id}.md`)
+			}))
+		]
+	},
 	{path: '/projects',	component: Projects},
-	{path: '*', component: NotFoundComponent}
+	{path: '/redirect-me', redirect: {name: 'home'}},
+	{path: '*', redirect: '/'}
 ];
