@@ -10,7 +10,14 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "^3.0.6",
+    "vue-template-compiler": "^2.6.10",
+    "connect-history-api-fallback": "^1.6.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
