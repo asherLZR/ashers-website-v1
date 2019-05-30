@@ -1,4 +1,8 @@
-# personal-site
+# Personal Website
+
+## Creating a markdown blog with Vue without a CMS
+
+I found the following [guide](https://dev.to/josephharveyangeles/creating-a-simple-blog-using-vue-with-markdown-2omd) helpful.
 
 ## Project setup
 ```
@@ -15,15 +19,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+### Runs minifed production version with express
 ```
-npm run test
+npm run start
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
