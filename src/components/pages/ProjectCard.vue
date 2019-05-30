@@ -15,10 +15,6 @@
 
 <script>
 export default {
-	data() {
-		return {
-		}
-	},
 	props: {
 		imgSrc: String,
 		projectTitle: String,
