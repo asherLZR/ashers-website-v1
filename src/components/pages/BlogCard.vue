@@ -1,12 +1,15 @@
 <template>
 	<li class="collection-item">
 		<div class="row">
+			<div class="col s12 m3 center-align hide-on-med-and-up">
+				<img :src="requiredImg" :alt="item.img" class="responsive-img">
+			</div>
 			<div class="col s12 m9 left-align">
 				<h5 class="title"><router-link :to="{name: item.id}">{{item.title}}</router-link></h5>
 				<p class="description">{{item.description}}</p>
 				<p class="date">{{item.date}}</p>
 			</div>
-			<div class="col s12 m3 right-align">
+			<div class="col s12 m3 center-align hide-on-small-only">
 				<img :src="requiredImg" :alt="item.img" class="responsive-img">
 			</div>
 		</div>
