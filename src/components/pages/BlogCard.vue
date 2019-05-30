@@ -1,13 +1,13 @@
 <template>
 	<li class="collection-item">
 		<div class="row">
-			<div class="col s9 left-align">
+			<div class="col s12 m9 left-align">
 				<h5 class="title"><router-link :to="{name: item.id}">{{item.title}}</router-link></h5>
 				<p class="description">{{item.description}}</p>
 				<p class="date">{{item.date}}</p>
 			</div>
-			<div class="col s3 right-align">
-				<img :src="requiredImg" :alt="item.img">
+			<div class="col s12 m3 right-align">
+				<img :src="requiredImg" :alt="item.img" class="responsive-img">
 			</div>
 		</div>
 	</li>
