@@ -14,7 +14,7 @@ export const routes = [
 			...BlogList.map(entry => ({
 				path: `${entry.id}`,
 				name: entry.id,
-				component: () => import(`./markdown/${entry.id}.md`)
+				component: () => import(`./markdown/${entry.id}.md`),
 			}))
 		]
 	},
