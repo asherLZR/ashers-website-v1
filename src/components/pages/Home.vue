@@ -13,7 +13,7 @@
 			</div>
 			<div class="col s12 m9">
 				<p>Hi there! I'm Asher, a final year computer science student from Singapore currently living in Melbourne, Australia. I was fortunate to have been introduced to web and mobile development, and data analytics and visualisation when I was 17. However, it was exposure to the complex ecosystem of computing theory and software development in university that ignited my interest in algorithms and software.</p>
-				<p>I code in Javascript, Python, and Java, including Android, and have experience with frameworks and languages such as Vue.js, SQL. View my <a href="https://drive.google.com/open?id=1LTQ6jqlvKxntFMM6PwJ_ySaNOHwFf270" target="_blank">resume</a> for more detailed information!</p>
+				<p>I code in Python, Javascript, and Java, including Android, and have experience with frameworks and languages such as Vue.js and SQL. View my <a href="https://drive.google.com/open?id=1LTQ6jqlvKxntFMM6PwJ_ySaNOHwFf270" target="_blank">resume</a> for more detailed information!</p>
 				<p>Outside of lectures, I've taken part in hackathons such as Unihack and Hackamon, and enjoy teaching what I've learnt to newcomers. I'm always looking forward to working with fun and creative people to build ethical software that is mindful of more than simply its functional purpose but also how it might improve the lives of its users.</p>
 				Thank you for visiting my website! 😊
 			</div>
