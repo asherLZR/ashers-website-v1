@@ -21,27 +21,27 @@
 		<h5>Personal Interests</h5>
 		<p>As someone who believes in the promising uses of technology, I'm interested in the intersection of tech with social change and education, and view political structures and business as both enablers and hindrances of such change.</p>
 		<p>A source of frustration is the lack of awareness within the student tech community of how to approach such issues, often conflating more technology with better outcomes. I believe part of this problem is the lack of opportunities we have to work directly at the estuaries of these domains. In addition, academic and cultural scaffolds could do more to disambiguate the importance of primal metrics like privacy, free speech, and ultimately societal impact over functional requirements.</p>
-		<h5>Quick Tidbits</h5>
-		<div class="tidbits">
+		<h5>Fun Tidbits</h5>
+		<div class="tidbits caption-text">
 			<div class="row">
-				<div class="col s6">
+				<div class="col s12 m6">
 					<h6>Hackathons 💻</h6>
 					<p>Working with brilliant people to build innovative projects</p>
 					<img src="@/assets/unihack.jpg" alt="unihack">
 				</div>
-				<div class="col s6">
+				<div class="col s12 m6">
 					<h6>Army 🚩</h6>
 					<p>I was a Signal Officer in the Singapore Armed Forces</p>
 					<img src="@/assets/ord.jpg" alt="ord">
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s6">
+				<div class="col s12 m6">
 					<h6>Dragonboating 🐉</h6>
-					<p>Rower in dragonboat team, we won the annual Army Regatta</p>
+					<p>Rower in battalion dragonboat team which won the annual Army Regatta</p>
 					<img src="@/assets/dragonboat.jpg" alt="dragonboat">
 				</div>
-				<div class="col s6">
+				<div class="col s12 m6">
 					<h6>Astronomy ⭐</h6>
 					<p>We started an Astronomy club in Temasek Polytechnic</p>
 					<img src="@/assets/stargazers.png" alt="stargazers">
