@@ -3,7 +3,7 @@
 
 _30 May 2019_
 ##### Operation Coldstore and its Long Shadow
-_Long before I had heard about [Operation Coldstore](https://newnaratif.com/journalism/remembering-coldstore-singapores-former-detainees-speak/), I felt its reverberations in waking moments as a child in school and at home, where there was an acknowledged hush among adults that lived through those critical years. It was and sadly still is in our mileau that we mandate a silence to criticism about the government even if actions or policies in the past or present have been disagreeable._
+_Long before I had heard about [Operation Coldstore](https://newnaratif.com/journalism/remembering-coldstore-singapores-former-detainees-speak/), I felt its reverberations in waking moments as a child in school and at home, where there was an acknowledged hush among adults that lived through those critical years. It was and sadly still is in our milieu that we mandate a silence to criticism about the government even if actions or policies in the past or present have been disagreeable._
 
 In February 1963, over 110 people were arrested and detained without trial in Singapore, ostensibly, for posing a communist threat. Against the traditional government narrative, revisionist historians believe these bouts of arrests and imprisonment were unfounded and part of a regime to consolidate political power. 
 
