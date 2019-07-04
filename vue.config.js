@@ -9,6 +9,11 @@ module.exports = {
 		.loader('vue-markdown-loader/lib/markdown-compiler')
 		.options({
 		raw: true
-		})
+		}),
+	config.module.rule('sass')
+		.test(/\.sass$/)
+		.use('sass-loader')
+		.loader('sass-loader')
+		.end()
 	}
   }

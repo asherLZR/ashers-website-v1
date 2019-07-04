@@ -13,6 +13,8 @@
     "core-js": "^2.6.5",
     "express": "^4.17.1",
     "materialize-css": "^1.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.0",
     "vue-markdown-loader": "^2.4.1",
