@@ -5,7 +5,7 @@ import Projects from '@/components/pages/Projects.vue';
 import Home from '@/components/pages/Home.vue';
 
 export const routes = [
-	{path: '', component: Home, name: 'home'}, 
+	{path: '', component: Home, name: 'home'},
 	{
 		path: '/blog',	
 		component: Blog,
