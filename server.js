@@ -4,10 +4,10 @@ const history = require("connect-history-api-fallback");
 const port = process.env.PORT || 8080;
 const app = express();
 
-app.get("/sitemap.xml", (req, res) => {
-  let xmlPath = path.join(__dirname, "/public/", "sitemap.xml");
-  res.type("application/xml");
-  res.send(xmlPath);
+app.get("/sitemap.txt", (req, res) => {
+  let txtPath = path.join(__dirname, "/public/", "sitemap.txt");
+  res.type("application/txt");
+  res.sendFile(txtPath);
 });
 
 app.use(express.static(path.join(__dirname, "/dist/")));
