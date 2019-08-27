@@ -1,8 +1,8 @@
 <template>
 	<ul class="collection">
-		<app-card imgSrc="suffix_tree.png" projectTitle="Advanced Data Structures and Algorithms" link="https://github.com/asherLZR/adv-ds-alg" metaTag="Python implementations from one of my favourite subjects">
-			These are data structures and algorithms covering topics such as string pattern matching, semi-numerical algorithms, lossless compression, and more!
-		</app-card>
+		<!-- <app-card imgSrc="suffix_tree.png" projectTitle="Advanced Data Structures and Algorithms" link="https://github.com/asherLZR/adv-ds-alg" metaTag="Python implementations from one of my favourite subjects">
+			These are data structures and algorithms covering topics such as string pattern matching, semi-numerical algorithms, lossless compression, and more! [The repository has been privated.]
+		</app-card> -->
 
 		<app-card imgSrc="perspective.png" projectTitle="Perspective" link="https://github.com/asherLZR/perspective" metaTag="2nd Place Winners, Hackamon 2019">
 			While it is agreed that one of the best modes of learning is through teaching, this is rarely tapped upon.
