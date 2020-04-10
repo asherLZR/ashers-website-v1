@@ -11,6 +11,7 @@
 			</div>
 			<div class="col s12 m3 center-align hide-on-small-only">
 				<img :src="requiredImg" :alt="item.img" class="responsive-img">
+				<p class="img-caption">{{item.caption}}</p>
 			</div>
 		</div>
 	</li>
@@ -50,5 +51,10 @@ img {
 .img {
 	width: auto;
 	height: 100%;
+}
+
+.img-caption {
+	font-style: italic;
+	font-size: 0.8rem;
 }
 </style>
