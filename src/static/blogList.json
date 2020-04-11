@@ -1,7 +1,7 @@
 [
   {
     "id": "lazy-dp",
-    "date": "06 April 2020",
+    "date": "11 April 2020",
     "title": "Fuzzy Search - Lazy Edit Distance in Haskell",
     "description": "I recently stumbled upon the edit distance problem again while working on an ElasticSearch problem at work. It gave me fond memories of the wonder and joy of studying algorithms. However well-trodden a path, another clever \"trick\" lies waiting to be found. Using the power of lazy evaluation to solve the edit distance problem is a beautiful rendition of an old favourite, yet current problem.",
     "img": "llama.jpg",
