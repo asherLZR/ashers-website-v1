@@ -74,19 +74,6 @@
 		background-color: transparent;
 		border: none;
 	}
-
-	.hide-on-small-only {
-		width: 50%; 
-		height: auto; 
-		display:block;
-	}
-
-	.hide-on-med-and-up {
-		width: 100%; 
-		max-width: 300px; 
-		height: auto; 
-		display:block;
-	}
   }
 }
 </style>

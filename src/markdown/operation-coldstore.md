@@ -1,5 +1,5 @@
-<img class="hide-on-small-only" src="@/assets/orchard-road.jpg">
-<img class="hide-on-med-and-up" src="@/assets/orchard-road.jpg">
+<img class="hide-on-small-only" src="@/assets/orchard-road.jpg" style="width: 50%; height: auto; display:block;">
+<img class="hide-on-med-and-up" src="@/assets/orchard-road.jpg" style="width: 100%; max-width: 300px; height: auto; display:block;">
 
 _30 May 2019_
 # Operation Coldstore and its Long Shadow
