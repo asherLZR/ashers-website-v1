@@ -3,6 +3,7 @@
 		<div class="row">
 			<div class="col s12 m3 center-align hide-on-med-and-up">
 				<img :src="requiredImg" :alt="item.img" class="responsive-img">
+				<p class="img-caption">{{item.caption}}</p>
 			</div>
 			<div class="col s12 m9 left-align">
 				<h5 class="title"><router-link :to="{name: item.id}">{{item.title}}</router-link></h5>
