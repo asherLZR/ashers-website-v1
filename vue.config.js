@@ -1,7 +1,7 @@
 module.exports = {
 	chainWebpack(config){
 	config.module.rule('md')
-		.test(/\.md/)
+		.test(/\.md$/)
 		.use('vue-loader')
 		.loader('vue-loader')
 		.end()
@@ -16,4 +16,4 @@ module.exports = {
 		.loader('sass-loader')
 		.end()
 	}
-  }
+}

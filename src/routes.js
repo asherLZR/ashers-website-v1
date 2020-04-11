@@ -12,7 +12,7 @@ export const routes = [
 		children: [
 			{path: '', component: BlogMain},
 			...BlogList.map(entry => ({
-				path: `${entry.id}`,
+				path: entry.id,
 				name: entry.id,
 				component: () => import(`./markdown/${entry.id}.md`),
 			}))
