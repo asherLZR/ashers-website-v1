@@ -8,7 +8,7 @@
 					<br />
 					Bachelor of Computer Science, Monash University
 					<br />
-					Jun. 2020 Graduation
+					Awaiting Graduation
 				</p>
 			</div>
 			<div class="col s12 m9">
