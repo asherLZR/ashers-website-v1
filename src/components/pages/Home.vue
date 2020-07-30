@@ -4,26 +4,27 @@
 			<div class="col s12 m3 photo-container center-align">
 				<img class="profileImg" src="@/assets/asher.jpg" alt="My photo" />
 				<p class="center-align caption-text">
-					<b>Final year student</b>
+					<b>Bachelor of Computer Science</b>
 					<br />
-					Bachelor of Computer Science, Monash University
+					Monash University
 					<br />
-					Awaiting Graduation
+					Graduated July 2020
+					<br />
 				</p>
 			</div>
-			<div class="col s12 m9">
+			<div class="col s12 m9 intro-text">
 				<p>
-					Hi there! I'm Asher, a final year computer science student from
-					Singapore currently living in Melbourne, Australia. I was fortunate to
-					have been introduced to web and mobile development, and data analytics
-					and visualisation when I was 17. However, it was exposure to the
-					complex ecosystem of computing theory and software development in
-					university that ignited my interest in algorithms and software.
+					Hi there! I'm Asher, a computer science graduate from Singapore
+					currently living in Melbourne, Australia. I was fortunate to have been
+					introduced to web and mobile development, and data analytics and
+					visualisation when I was 17. However, it was exposure to the complex
+					ecosystem of computing theory and software development in university
+					that ignited my interest in algorithms and software.
 				</p>
 				<p>
 					I code in Python, Javascript, and Java, including Android, and have
-					experience with frameworks and languages such as Vue.js and SQL. View
-					my
+					experience with frameworks and languages such as React, Vue, SQL, and
+					Neo4j. View my
 					<a
 						href="https://drive.google.com/open?id=1LTQ6jqlvKxntFMM6PwJ_ySaNOHwFf270"
 						target="_blank"
@@ -100,6 +101,10 @@
 </template>
 
 <style scoped>
+.intro-text > p {
+	margin-block-start: 0;
+}
+
 .profileImg {
 	width: 90%;
 	max-width: 150px;
